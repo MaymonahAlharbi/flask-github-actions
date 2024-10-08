@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/app
     working_dir: /app
-    command: ["python3", "app.py"]
+    command: pytest
 
     ports:
       - "5040:5040"
